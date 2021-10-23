@@ -20,6 +20,9 @@ MD-TASK, software suite of MD analysis tools, was used to calculate the correlat
 
 PCA performed with ProDy was used to quantify the persistent conformational changes and relative motions of the active and inactive states.
 
-**Water Analysis** (do_water.sh and do_waterACE2.sh)
+**#Water Analysis** (do_water.sh and do_waterACE2.sh)
 
 The  amount  of  solvent  around  the  receptor-binding  motif  (RBM)  was  quantified  using water analysis script. This calculates the number of water molecules within 5 ̊A of the RBM for every frame of trajectory. Macros used in the water analysis are listed under marcos folder. 
+
+**#Simulation files** (minimize_relax.conf, restrain.conf, equilibration.conf, COV1_PDB and COV2_PDB)
+The simulation step file to run molecular dynamic simulations and structure coordinate files of COV1 and COV2 are provided for active and inactive sates.
