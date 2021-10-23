@@ -13,4 +13,6 @@ For the RBM-S2 angle, we chose residues at the top and bottom of the straightest
 
 MD-TASK, software suite of MDanalysis tools, was used to calculate the correlation coefficient for the motion of each C_alpha atom relative to the other C_alpha atoms.  A correlation matrix M was generated for each of the three protomers in all the simulated trajectories.  Additionally, a correlation matrix for the entire trimer was calculated for each simulation to explore correlations between structures of different protomers.
 
-**#Free Energy Calculations** (PMF_Calculation_Using_RMSD and )
+**#Free Energy Calculations** (PMF_Calculation_Using_RMSD and Free_Energy_Using_RMSD_PMF)
+
+
