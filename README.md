@@ -22,4 +22,4 @@ PCA performed with ProDy was used to quantify the persistent conformational chan
 
 **Water Analysis** (do_water.sh and do_waterACE2.sh)
 
-The  amount  of  solvent  around  the  receptor-binding  motif  (RBM)  was  quantified  using water analysis script. This calculates the number of water molecules within 5 ̊A of the RBM for every frame of trajectory.
+The  amount  of  solvent  around  the  receptor-binding  motif  (RBM)  was  quantified  using water analysis script. This calculates the number of water molecules within 5 ̊A of the RBM for every frame of trajectory. Macros used in the water analysis are listed under marcos folder. 
