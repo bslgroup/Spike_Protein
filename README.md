@@ -8,3 +8,5 @@ To quantify the RBM-S2 distance,centers of mass based on residues that form a be
 **#Angle** (angle-CoV2.tcl and angle-CoV1.tcl)
 
 For the RBM-S2 angle, we chose residues at the top and bottom of the straightest region of the S2 Trimer. The vector  angle  between  the  RBD  and  S2  was  then  calculated  with  the  following  equation:arccos(v1·v2/|v1||v2|).  The computed angle was subtracted from 180◦.  An angle above≈60◦would indicate an RBD in the inactive conformation with respect to S2, and 0-40◦would indicatean RBD in the active conformation.
+
+**#Dynamic Network Analysis** ()
