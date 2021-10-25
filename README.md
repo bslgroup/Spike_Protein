@@ -2,7 +2,7 @@ Script and Macros Used for Analysis of MD Trajectories of Spike Proteins Studied
 ADD Author names*
 
 
-**#Distance** (distances-CoV2.tcl and distances-CoV1.tcl)
+**#Distance** (distances-CoV2.tcl and distances-CoV1.tcl) VMD scripts methion that
 
 To quantify the RBM-S2 distance,centers of mass based on residues that form a beta-sheet in the RBM region of each RBD. The distance script measured the vector distance between the two centers of mass and used the vector magnitude to quantify the overall distance.
 
@@ -26,4 +26,4 @@ PCA performed with ProDy was used to quantify the persistent conformational chan
 The  amount  of  solvent  around  the  receptor-binding  motif  (RBM)  was  quantified  using water analysis script. This calculates the number of water molecules within 5 ̊A of the RBM for every frame of trajectory. Macros used in the water analysis are listed under marcos folder. 
 
 **#Simulation files** (minimize_relax.conf, restrain.conf, equilibration.conf, COV1_PDB and COV2_PDB)
-The simulation step file to run molecular dynamic simulations and structure coordinate files of COV1 and COV2 are provided for active and inactive sates.
+The simulation step file to run molecular dynamics simulations and structure coordinate files of COV1 and COV2 are provided for active and inactive sates.
