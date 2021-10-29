@@ -16,6 +16,13 @@ MD-TASK, software suite of MD analysis tools, was used to calculate the correlat
 
 **#Free Energy Calculations** (PMF_Calculation_Using_RMSD and Free_Energy_Using_RMSD_PMF)
 
+#### Python Script  
+Loads accumulated work from 10 TMD simulation replicates and calculates the Jarzynski average for each line and saves results into a text file. 
+### RMSD tcl script - VMD 
+Calculates the RMSD of the active/inactive protomer for a given system for all TMD frames. All the atoms are aligned onto a reference structure (equilibrated reference structure), each frame, that is opposite to the initial conformation before TMD. For example if the system starts with an active protomer for TMD and is steered towards inactive, the reference structure will be an equilibrated structure with all three inactive protomers. CoV1 is always aligned with CoV1 and CoV2 with CoV2.  
+### Shell script 
+This script pastes the RMSD data from TMD and VMD calculated. Then it will take the difference and report the DRMSD and accumulated work.  
+Next, using the DRMSD data, the data is binned using 100 bins. The Jarzynski average is then calculated from the binned data associated with a specific work value. Finally the data reported is the  DRMSD, Jarzynski average, standard deviation, standard error, and the number of counts.
 
 **#Principal Component analysis (PCA)** (pca_out_select.py)
 
