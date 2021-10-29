@@ -15,7 +15,8 @@ These are VMD scripts For the RBM-S2 angle calculations, we chose residues at th
 
 This is done using python package MD-TASK, software suite of MD analysis tools, was used to calculate the correlation coefficient for the motion of each C_alpha atom relative to the other C_alpha atoms.  A correlation matrix M was generated for each of the three protomers in all the simulated trajectories. Additionally, a correlation matrix for the entire trimer was calculated for each simulation to explore correlations between structures of different protomers.
 
-**#Free Energy Calculations** (RMSD.tcl, Jarzynski_average.sh )
+**#Free Energy Calculations** (RMSD.tcl, Jarzynski_average.py, and BashScript.sh )
+
 **Pytho script**
 Loads accumulated work from 10 TMD simulation replicates and calculates the Jarzynski average for each line and saves results into a text file. 
 **RMSD tcl script - VMD **
@@ -37,3 +38,6 @@ The amount  of  solvent  around  the  receptor-binding  motif  (RBM)  was  quant
 
 **#Simulation files** (minimize_relax.conf, restrain.conf, equilibration.conf, COV1_PDB and COV2_PDB)
 The simulation step file to run molecular dynamics simulations and structure coordinate files of COV1 and COV2 are provided for active and inactive sates.
+
+**TMD Simulation** (tmd0.conf, tmd1.conf and colvars.conf)
+The simulation step file to run targeted molecular dynamics simulations and structure coordinate files used in this simulutations of COV1 and COV2 are provide.
