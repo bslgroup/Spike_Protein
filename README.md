@@ -1,5 +1,5 @@
 Script and Macros Used for Analysis of MD Trajectories of Spike Proteins Studied in Article: **Prefusion Spike Protein Conformational Changes Are Slower in SARS-CoV-2 Relative to SARS-CoV-1** 
-ADD Author names*
+Authors: Vivek Govind Kumar, Dylan S Ogden, Ugochi H Isu, Adithya Polasa, James Losey, and Mahmoud Moradi
 
 
 **#Distance** (distances-CoV2.tcl and distances-CoV1.tcl)
